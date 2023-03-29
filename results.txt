@@ -1,0 +1,1578 @@
+ERROR: DOS line endings
+#1: FILE: queue.c:1:
++#include <stdio.h>^M$
+
+WARNING: Missing or malformed SPDX-License-Identifier tag in line 1
+#1: FILE: queue.c:1:
++#include <stdio.h>
+
+ERROR: DOS line endings
+#2: FILE: queue.c:2:
++ #include <stdlib.h>^M$
+
+ERROR: DOS line endings
+#3: FILE: queue.c:3:
++ #include <string.h>^M$
+
+ERROR: DOS line endings
+#4: FILE: queue.c:4:
++ #include "struct.h"^M$
+
+ERROR: DOS line endings
+#5: FILE: queue.c:5:
++^M$
+
+ERROR: DOS line endings
+#6: FILE: queue.c:6:
++ll_node_t *new_node(void* data, int data_size, int priority)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#6: FILE: queue.c:6:
++ll_node_t *new_node(void* data, int data_size, int priority)
+
+ERROR: DOS line endings
+#7: FILE: queue.c:7:
++{^M$
+
+ERROR: DOS line endings
+#8: FILE: queue.c:8:
++    struct ll_node_t* node = malloc(sizeof(struct ll_node_t));^M$
+
+WARNING: please, no spaces at the start of a line
+#8: FILE: queue.c:8:
++    struct ll_node_t* node = malloc(sizeof(struct ll_node_t));^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#8: FILE: queue.c:8:
++    struct ll_node_t* node = malloc(sizeof(struct ll_node_t));
+
+ERROR: DOS line endings
+#9: FILE: queue.c:9:
++    node->next = NULL;^M$
+
+WARNING: Missing a blank line after declarations
+#9: FILE: queue.c:9:
++    struct ll_node_t* node = malloc(sizeof(struct ll_node_t));
++    node->next = NULL;
+
+WARNING: please, no spaces at the start of a line
+#9: FILE: queue.c:9:
++    node->next = NULL;^M$
+
+ERROR: DOS line endings
+#10: FILE: queue.c:10:
++    node->priority = priority;^M$
+
+WARNING: please, no spaces at the start of a line
+#10: FILE: queue.c:10:
++    node->priority = priority;^M$
+
+ERROR: DOS line endings
+#11: FILE: queue.c:11:
++    node->data = data;^M$
+
+WARNING: please, no spaces at the start of a line
+#11: FILE: queue.c:11:
++    node->data = data;^M$
+
+ERROR: DOS line endings
+#12: FILE: queue.c:12:
++    return node;^M$
+
+WARNING: please, no spaces at the start of a line
+#12: FILE: queue.c:12:
++    return node;^M$
+
+ERROR: DOS line endings
+#13: FILE: queue.c:13:
++}^M$
+
+ERROR: DOS line endings
+#14: FILE: queue.c:14:
++^M$
+
+ERROR: DOS line endings
+#15: FILE: queue.c:15:
++linked_list_t *ll_create(unsigned int data_size)^M$
+
+ERROR: DOS line endings
+#16: FILE: queue.c:16:
++{^M$
+
+ERROR: DOS line endings
+#17: FILE: queue.c:17:
++    struct linked_list_t* list = malloc(sizeof(struct linked_list_t));^M$
+
+WARNING: please, no spaces at the start of a line
+#17: FILE: queue.c:17:
++    struct linked_list_t* list = malloc(sizeof(struct linked_list_t));^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#17: FILE: queue.c:17:
++    struct linked_list_t* list = malloc(sizeof(struct linked_list_t));
+
+ERROR: DOS line endings
+#18: FILE: queue.c:18:
++    list->head = NULL;^M$
+
+WARNING: Missing a blank line after declarations
+#18: FILE: queue.c:18:
++    struct linked_list_t* list = malloc(sizeof(struct linked_list_t));
++    list->head = NULL;
+
+WARNING: please, no spaces at the start of a line
+#18: FILE: queue.c:18:
++    list->head = NULL;^M$
+
+ERROR: DOS line endings
+#19: FILE: queue.c:19:
++    list->size = 0;^M$
+
+WARNING: please, no spaces at the start of a line
+#19: FILE: queue.c:19:
++    list->size = 0;^M$
+
+ERROR: trailing whitespace
+#20: FILE: queue.c:20:
++    // data_size este sizeof(thread_t)^M$
+
+ERROR: DOS line endings
+#21: FILE: queue.c:21:
++    list->data_size = data_size;^M$
+
+WARNING: please, no spaces at the start of a line
+#21: FILE: queue.c:21:
++    list->data_size = data_size;^M$
+
+ERROR: DOS line endings
+#22: FILE: queue.c:22:
++^M$
+
+ERROR: DOS line endings
+#23: FILE: queue.c:23:
++    return list;^M$
+
+WARNING: please, no spaces at the start of a line
+#23: FILE: queue.c:23:
++    return list;^M$
+
+ERROR: DOS line endings
+#24: FILE: queue.c:24:
++}^M$
+
+ERROR: DOS line endings
+#25: FILE: queue.c:25:
++^M$
+
+ERROR: DOS line endings
+#26: FILE: queue.c:26:
++ll_node_t* get_nth_node(linked_list_t* list, unsigned int n)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#26: FILE: queue.c:26:
++ll_node_t* get_nth_node(linked_list_t* list, unsigned int n)
+
+ERROR: "foo* bar" should be "foo *bar"
+#26: FILE: queue.c:26:
++ll_node_t* get_nth_node(linked_list_t* list, unsigned int n)
+
+ERROR: DOS line endings
+#27: FILE: queue.c:27:
++{^M$
+
+ERROR: DOS line endings
+#28: FILE: queue.c:28:
++    struct ll_node_t* temp = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#28: FILE: queue.c:28:
++    struct ll_node_t* temp = list->head;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#28: FILE: queue.c:28:
++    struct ll_node_t* temp = list->head;
+
+ERROR: DOS line endings
+#29: FILE: queue.c:29:
++^M$
+
+ERROR: DOS line endings
+#30: FILE: queue.c:30:
++    unsigned int i = 0;^M$
+
+WARNING: please, no spaces at the start of a line
+#30: FILE: queue.c:30:
++    unsigned int i = 0;^M$
+
+ERROR: DOS line endings
+#31: FILE: queue.c:31:
++    while (temp != NULL) {^M$
+
+WARNING: Missing a blank line after declarations
+#31: FILE: queue.c:31:
++    unsigned int i = 0;
++    while (temp != NULL) {
+
+WARNING: please, no spaces at the start of a line
+#31: FILE: queue.c:31:
++    while (temp != NULL) {^M$
+
+ERROR: DOS line endings
+#32: FILE: queue.c:32:
++        if (i == n)^M$
+
+ERROR: code indent should use tabs where possible
+#32: FILE: queue.c:32:
++        if (i == n)^M$
+
+WARNING: please, no spaces at the start of a line
+#32: FILE: queue.c:32:
++        if (i == n)^M$
+
+WARNING: suspect code indent for conditional statements (8, 12)
+#32: FILE: queue.c:32:
++        if (i == n)
++            break;
+
+ERROR: DOS line endings
+#33: FILE: queue.c:33:
++            break;^M$
+
+ERROR: code indent should use tabs where possible
+#33: FILE: queue.c:33:
++            break;^M$
+
+WARNING: please, no spaces at the start of a line
+#33: FILE: queue.c:33:
++            break;^M$
+
+ERROR: DOS line endings
+#34: FILE: queue.c:34:
++        ++i;^M$
+
+ERROR: code indent should use tabs where possible
+#34: FILE: queue.c:34:
++        ++i;^M$
+
+WARNING: please, no spaces at the start of a line
+#34: FILE: queue.c:34:
++        ++i;^M$
+
+ERROR: DOS line endings
+#35: FILE: queue.c:35:
++        temp = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#35: FILE: queue.c:35:
++        temp = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#35: FILE: queue.c:35:
++        temp = temp->next;^M$
+
+ERROR: DOS line endings
+#36: FILE: queue.c:36:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#36: FILE: queue.c:36:
++    }^M$
+
+ERROR: DOS line endings
+#37: FILE: queue.c:37:
++^M$
+
+ERROR: DOS line endings
+#38: FILE: queue.c:38:
++    return temp;^M$
+
+WARNING: please, no spaces at the start of a line
+#38: FILE: queue.c:38:
++    return temp;^M$
+
+ERROR: DOS line endings
+#39: FILE: queue.c:39:
++}^M$
+
+ERROR: DOS line endings
+#40: FILE: queue.c:40:
++^M$
+
+ERROR: DOS line endings
+#41: FILE: queue.c:41:
++void ll_add_node(linked_list_t* list, int n, void* new_data, int priority)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#41: FILE: queue.c:41:
++void ll_add_node(linked_list_t* list, int n, void* new_data, int priority)
+
+ERROR: "foo* bar" should be "foo *bar"
+#41: FILE: queue.c:41:
++void ll_add_node(linked_list_t* list, int n, void* new_data, int priority)
+
+ERROR: DOS line endings
+#42: FILE: queue.c:42:
++{   ^M$
+
+ERROR: trailing whitespace
+#43: FILE: queue.c:43:
++    // se creeaza un nou nod^M$
+
+ERROR: DOS line endings
+#44: FILE: queue.c:44:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);^M$
+
+WARNING: please, no spaces at the start of a line
+#44: FILE: queue.c:44:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#44: FILE: queue.c:44:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);
+
+ERROR: DOS line endings
+#45: FILE: queue.c:45:
++^M$
+
+ERROR: DOS line endings
+#46: FILE: queue.c:46:
++    if (n == 0) {^M$
+
+WARNING: please, no spaces at the start of a line
+#46: FILE: queue.c:46:
++    if (n == 0) {^M$
+
+ERROR: trailing whitespace
+#47: FILE: queue.c:47:
++        // daca n e 0, atunci nodul creat devine headul listei^M$
+
+ERROR: code indent should use tabs where possible
+#47: FILE: queue.c:47:
++        // daca n e 0, atunci nodul creat devine headul listei^M$
+
+ERROR: DOS line endings
+#48: FILE: queue.c:48:
++        node->next = list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#48: FILE: queue.c:48:
++        node->next = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#48: FILE: queue.c:48:
++        node->next = list->head;^M$
+
+ERROR: DOS line endings
+#49: FILE: queue.c:49:
++        list->head = node;^M$
+
+ERROR: code indent should use tabs where possible
+#49: FILE: queue.c:49:
++        list->head = node;^M$
+
+WARNING: please, no spaces at the start of a line
+#49: FILE: queue.c:49:
++        list->head = node;^M$
+
+ERROR: DOS line endings
+#50: FILE: queue.c:50:
++^M$
+
+ERROR: DOS line endings
+#51: FILE: queue.c:51:
++    } else {^M$
+
+WARNING: please, no spaces at the start of a line
+#51: FILE: queue.c:51:
++    } else {^M$
+
+ERROR: trailing whitespace
+#52: FILE: queue.c:52:
++        // daca nu, se cauta pozitia n pe care este adaugat nodul creat^M$
+
+ERROR: code indent should use tabs where possible
+#52: FILE: queue.c:52:
++        // daca nu, se cauta pozitia n pe care este adaugat nodul creat^M$
+
+ERROR: DOS line endings
+#53: FILE: queue.c:53:
++        struct ll_node_t* temp = list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#53: FILE: queue.c:53:
++        struct ll_node_t* temp = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#53: FILE: queue.c:53:
++        struct ll_node_t* temp = list->head;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#53: FILE: queue.c:53:
++        struct ll_node_t* temp = list->head;
+
+ERROR: DOS line endings
+#54: FILE: queue.c:54:
++^M$
+
+ERROR: DOS line endings
+#55: FILE: queue.c:55:
++        if (n > list->size)^M$
+
+ERROR: code indent should use tabs where possible
+#55: FILE: queue.c:55:
++        if (n > list->size)^M$
+
+WARNING: please, no spaces at the start of a line
+#55: FILE: queue.c:55:
++        if (n > list->size)^M$
+
+WARNING: suspect code indent for conditional statements (8, 12)
+#55: FILE: queue.c:55:
++        if (n > list->size)
++            n = list->size;
+
+ERROR: DOS line endings
+#56: FILE: queue.c:56:
++            n = list->size;^M$
+
+ERROR: code indent should use tabs where possible
+#56: FILE: queue.c:56:
++            n = list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#56: FILE: queue.c:56:
++            n = list->size;^M$
+
+ERROR: DOS line endings
+#57: FILE: queue.c:57:
++^M$
+
+ERROR: DOS line endings
+#58: FILE: queue.c:58:
++        while (--n) {^M$
+
+ERROR: code indent should use tabs where possible
+#58: FILE: queue.c:58:
++        while (--n) {^M$
+
+WARNING: please, no spaces at the start of a line
+#58: FILE: queue.c:58:
++        while (--n) {^M$
+
+WARNING: suspect code indent for conditional statements (8, 12)
+#58: FILE: queue.c:58:
++        while (--n) {
++            temp = temp->next;
+
+WARNING: braces {} are not necessary for single statement blocks
+#58: FILE: queue.c:58:
++        while (--n) {
++            temp = temp->next;
++        }
+
+ERROR: DOS line endings
+#59: FILE: queue.c:59:
++            temp = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#59: FILE: queue.c:59:
++            temp = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#59: FILE: queue.c:59:
++            temp = temp->next;^M$
+
+ERROR: DOS line endings
+#60: FILE: queue.c:60:
++        }^M$
+
+ERROR: code indent should use tabs where possible
+#60: FILE: queue.c:60:
++        }^M$
+
+WARNING: please, no spaces at the start of a line
+#60: FILE: queue.c:60:
++        }^M$
+
+ERROR: DOS line endings
+#61: FILE: queue.c:61:
++^M$
+
+ERROR: DOS line endings
+#62: FILE: queue.c:62:
++        node->next = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#62: FILE: queue.c:62:
++        node->next = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#62: FILE: queue.c:62:
++        node->next = temp->next;^M$
+
+ERROR: DOS line endings
+#63: FILE: queue.c:63:
++        temp->next = node;^M$
+
+ERROR: code indent should use tabs where possible
+#63: FILE: queue.c:63:
++        temp->next = node;^M$
+
+WARNING: please, no spaces at the start of a line
+#63: FILE: queue.c:63:
++        temp->next = node;^M$
+
+ERROR: DOS line endings
+#64: FILE: queue.c:64:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#64: FILE: queue.c:64:
++    }^M$
+
+ERROR: DOS line endings
+#65: FILE: queue.c:65:
++^M$
+
+ERROR: DOS line endings
+#66: FILE: queue.c:66:
++    ++list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#66: FILE: queue.c:66:
++    ++list->size;^M$
+
+ERROR: DOS line endings
+#67: FILE: queue.c:67:
++}^M$
+
+ERROR: DOS line endings
+#68: FILE: queue.c:68:
++^M$
+
+ERROR: DOS line endings
+#69: FILE: queue.c:69:
++void ll_add_node_priority(linked_list_t* list, void* new_data, int priority)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#69: FILE: queue.c:69:
++void ll_add_node_priority(linked_list_t* list, void* new_data, int priority)
+
+ERROR: "foo* bar" should be "foo *bar"
+#69: FILE: queue.c:69:
++void ll_add_node_priority(linked_list_t* list, void* new_data, int priority)
+
+ERROR: DOS line endings
+#70: FILE: queue.c:70:
++{^M$
+
+ERROR: trailing whitespace
+#71: FILE: queue.c:71:
++    // se creeaza un nou nod^M$
+
+ERROR: DOS line endings
+#72: FILE: queue.c:72:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);^M$
+
+WARNING: please, no spaces at the start of a line
+#72: FILE: queue.c:72:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#72: FILE: queue.c:72:
++    struct ll_node_t* node = new_node(new_data, list->data_size, priority);
+
+ERROR: DOS line endings
+#73: FILE: queue.c:73:
++^M$
+
+ERROR: DOS line endings
+#74: FILE: queue.c:74:
++    if (list->size == 0) {^M$
+
+WARNING: please, no spaces at the start of a line
+#74: FILE: queue.c:74:
++    if (list->size == 0) {^M$
+
+ERROR: trailing whitespace
+#75: FILE: queue.c:75:
++        // daca lista e goala, nodul creat devine headul listei^M$
+
+ERROR: code indent should use tabs where possible
+#75: FILE: queue.c:75:
++        // daca lista e goala, nodul creat devine headul listei^M$
+
+ERROR: DOS line endings
+#76: FILE: queue.c:76:
++        node->next = list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#76: FILE: queue.c:76:
++        node->next = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#76: FILE: queue.c:76:
++        node->next = list->head;^M$
+
+ERROR: DOS line endings
+#77: FILE: queue.c:77:
++        list->head = node;^M$
+
+ERROR: code indent should use tabs where possible
+#77: FILE: queue.c:77:
++        list->head = node;^M$
+
+WARNING: please, no spaces at the start of a line
+#77: FILE: queue.c:77:
++        list->head = node;^M$
+
+ERROR: DOS line endings
+#78: FILE: queue.c:78:
++^M$
+
+ERROR: DOS line endings
+#79: FILE: queue.c:79:
++    } else if (list->head->priority < priority) {^M$
+
+WARNING: please, no spaces at the start of a line
+#79: FILE: queue.c:79:
++    } else if (list->head->priority < priority) {^M$
+
+ERROR: trailing whitespace
+#80: FILE: queue.c:80:
++        // daca prioritatea nodului creat este mai mare decat a headului^M$
+
+ERROR: code indent should use tabs where possible
+#80: FILE: queue.c:80:
++        // daca prioritatea nodului creat este mai mare decat a headului^M$
+
+ERROR: trailing whitespace
+#81: FILE: queue.c:81:
++        // listei, atunci nodul creat devine headul listei^M$
+
+ERROR: code indent should use tabs where possible
+#81: FILE: queue.c:81:
++        // listei, atunci nodul creat devine headul listei^M$
+
+ERROR: DOS line endings
+#82: FILE: queue.c:82:
++        node->next = list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#82: FILE: queue.c:82:
++        node->next = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#82: FILE: queue.c:82:
++        node->next = list->head;^M$
+
+ERROR: DOS line endings
+#83: FILE: queue.c:83:
++        list->head = node;^M$
+
+ERROR: code indent should use tabs where possible
+#83: FILE: queue.c:83:
++        list->head = node;^M$
+
+WARNING: please, no spaces at the start of a line
+#83: FILE: queue.c:83:
++        list->head = node;^M$
+
+ERROR: DOS line endings
+#84: FILE: queue.c:84:
++^M$
+
+ERROR: DOS line endings
+#85: FILE: queue.c:85:
++    } else {^M$
+
+WARNING: please, no spaces at the start of a line
+#85: FILE: queue.c:85:
++    } else {^M$
+
+ERROR: trailing whitespace
+#86: FILE: queue.c:86:
++        // se cauta pozitia pe care se va adauga nodul creat^M$
+
+ERROR: code indent should use tabs where possible
+#86: FILE: queue.c:86:
++        // se cauta pozitia pe care se va adauga nodul creat^M$
+
+ERROR: DOS line endings
+#87: FILE: queue.c:87:
++        struct ll_node_t* temp = list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#87: FILE: queue.c:87:
++        struct ll_node_t* temp = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#87: FILE: queue.c:87:
++        struct ll_node_t* temp = list->head;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#87: FILE: queue.c:87:
++        struct ll_node_t* temp = list->head;
+
+ERROR: DOS line endings
+#88: FILE: queue.c:88:
++^M$
+
+ERROR: DOS line endings
+#89: FILE: queue.c:89:
++        while (temp->next != NULL && temp->next->priority >= priority) {^M$
+
+ERROR: code indent should use tabs where possible
+#89: FILE: queue.c:89:
++        while (temp->next != NULL && temp->next->priority >= priority) {^M$
+
+WARNING: please, no spaces at the start of a line
+#89: FILE: queue.c:89:
++        while (temp->next != NULL && temp->next->priority >= priority) {^M$
+
+WARNING: suspect code indent for conditional statements (8, 12)
+#89: FILE: queue.c:89:
++        while (temp->next != NULL && temp->next->priority >= priority) {
++            temp = temp->next;
+
+WARNING: braces {} are not necessary for single statement blocks
+#89: FILE: queue.c:89:
++        while (temp->next != NULL && temp->next->priority >= priority) {
++            temp = temp->next;
++        }
+
+ERROR: DOS line endings
+#90: FILE: queue.c:90:
++            temp = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#90: FILE: queue.c:90:
++            temp = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#90: FILE: queue.c:90:
++            temp = temp->next;^M$
+
+ERROR: DOS line endings
+#91: FILE: queue.c:91:
++        }^M$
+
+ERROR: code indent should use tabs where possible
+#91: FILE: queue.c:91:
++        }^M$
+
+WARNING: please, no spaces at the start of a line
+#91: FILE: queue.c:91:
++        }^M$
+
+ERROR: DOS line endings
+#92: FILE: queue.c:92:
++        ^M$
+
+ERROR: code indent should use tabs where possible
+#92: FILE: queue.c:92:
++        ^M$
+
+WARNING: please, no spaces at the start of a line
+#92: FILE: queue.c:92:
++        ^M$
+
+ERROR: DOS line endings
+#93: FILE: queue.c:93:
++        node->next = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#93: FILE: queue.c:93:
++        node->next = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#93: FILE: queue.c:93:
++        node->next = temp->next;^M$
+
+ERROR: DOS line endings
+#94: FILE: queue.c:94:
++        temp->next = node;^M$
+
+ERROR: code indent should use tabs where possible
+#94: FILE: queue.c:94:
++        temp->next = node;^M$
+
+WARNING: please, no spaces at the start of a line
+#94: FILE: queue.c:94:
++        temp->next = node;^M$
+
+ERROR: DOS line endings
+#95: FILE: queue.c:95:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#95: FILE: queue.c:95:
++    }^M$
+
+ERROR: DOS line endings
+#96: FILE: queue.c:96:
++^M$
+
+ERROR: DOS line endings
+#97: FILE: queue.c:97:
++    ++list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#97: FILE: queue.c:97:
++    ++list->size;^M$
+
+ERROR: DOS line endings
+#98: FILE: queue.c:98:
++}^M$
+
+ERROR: DOS line endings
+#99: FILE: queue.c:99:
++^M$
+
+ERROR: DOS line endings
+#100: FILE: queue.c:100:
++ll_node_t *ll_remove_nth_node(linked_list_t* list, unsigned int n)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#100: FILE: queue.c:100:
++ll_node_t *ll_remove_nth_node(linked_list_t* list, unsigned int n)
+
+ERROR: DOS line endings
+#101: FILE: queue.c:101:
++{^M$
+
+ERROR: DOS line endings
+#102: FILE: queue.c:102:
++    if (list->head == NULL)^M$
+
+WARNING: please, no spaces at the start of a line
+#102: FILE: queue.c:102:
++    if (list->head == NULL)^M$
+
+ERROR: DOS line endings
+#103: FILE: queue.c:103:
++        return list->head;^M$
+
+ERROR: code indent should use tabs where possible
+#103: FILE: queue.c:103:
++        return list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#103: FILE: queue.c:103:
++        return list->head;^M$
+
+ERROR: DOS line endings
+#104: FILE: queue.c:104:
++    ^M$
+
+WARNING: please, no spaces at the start of a line
+#104: FILE: queue.c:104:
++    ^M$
+
+ERROR: DOS line endings
+#105: FILE: queue.c:105:
++    struct ll_node_t* temp = list->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#105: FILE: queue.c:105:
++    struct ll_node_t* temp = list->head;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#105: FILE: queue.c:105:
++    struct ll_node_t* temp = list->head;
+
+ERROR: DOS line endings
+#106: FILE: queue.c:106:
++^M$
+
+ERROR: DOS line endings
+#107: FILE: queue.c:107:
++    if (n == 0) {^M$
+
+WARNING: please, no spaces at the start of a line
+#107: FILE: queue.c:107:
++    if (n == 0) {^M$
+
+ERROR: trailing whitespace
+#108: FILE: queue.c:108:
++        // daca n e 0, se sterge headul listei^M$
+
+ERROR: code indent should use tabs where possible
+#108: FILE: queue.c:108:
++        // daca n e 0, se sterge headul listei^M$
+
+ERROR: DOS line endings
+#109: FILE: queue.c:109:
++        list->head = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#109: FILE: queue.c:109:
++        list->head = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#109: FILE: queue.c:109:
++        list->head = temp->next;^M$
+
+ERROR: DOS line endings
+#110: FILE: queue.c:110:
++        --list->size;^M$
+
+ERROR: code indent should use tabs where possible
+#110: FILE: queue.c:110:
++        --list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#110: FILE: queue.c:110:
++        --list->size;^M$
+
+ERROR: DOS line endings
+#111: FILE: queue.c:111:
++        return temp;^M$
+
+ERROR: code indent should use tabs where possible
+#111: FILE: queue.c:111:
++        return temp;^M$
+
+WARNING: please, no spaces at the start of a line
+#111: FILE: queue.c:111:
++        return temp;^M$
+
+ERROR: DOS line endings
+#112: FILE: queue.c:112:
++        ^M$
+
+ERROR: code indent should use tabs where possible
+#112: FILE: queue.c:112:
++        ^M$
+
+WARNING: please, no spaces at the start of a line
+#112: FILE: queue.c:112:
++        ^M$
+
+ERROR: DOS line endings
+#113: FILE: queue.c:113:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#113: FILE: queue.c:113:
++    }^M$
+
+ERROR: DOS line endings
+#114: FILE: queue.c:114:
++^M$
+
+ERROR: trailing whitespace
+#115: FILE: queue.c:115:
++    // se cauta elementul de pe pozitia n^M$
+
+ERROR: DOS line endings
+#116: FILE: queue.c:116:
++    if (n > list->size)^M$
+
+WARNING: please, no spaces at the start of a line
+#116: FILE: queue.c:116:
++    if (n > list->size)^M$
+
+ERROR: DOS line endings
+#117: FILE: queue.c:117:
++        n = list->size - 1;^M$
+
+ERROR: code indent should use tabs where possible
+#117: FILE: queue.c:117:
++        n = list->size - 1;^M$
+
+WARNING: please, no spaces at the start of a line
+#117: FILE: queue.c:117:
++        n = list->size - 1;^M$
+
+ERROR: DOS line endings
+#118: FILE: queue.c:118:
++^M$
+
+ERROR: DOS line endings
+#119: FILE: queue.c:119:
++    for (int i = 0; i < n - 1; ++i)^M$
+
+WARNING: please, no spaces at the start of a line
+#119: FILE: queue.c:119:
++    for (int i = 0; i < n - 1; ++i)^M$
+
+ERROR: DOS line endings
+#120: FILE: queue.c:120:
++        temp = temp->next;^M$
+
+ERROR: code indent should use tabs where possible
+#120: FILE: queue.c:120:
++        temp = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#120: FILE: queue.c:120:
++        temp = temp->next;^M$
+
+ERROR: DOS line endings
+#121: FILE: queue.c:121:
++    ^M$
+
+WARNING: please, no spaces at the start of a line
+#121: FILE: queue.c:121:
++    ^M$
+
+ERROR: DOS line endings
+#122: FILE: queue.c:122:
++    struct ll_node_t* next = temp->next->next; ^M$
+
+WARNING: please, no spaces at the start of a line
+#122: FILE: queue.c:122:
++    struct ll_node_t* next = temp->next->next; ^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#122: FILE: queue.c:122:
++    struct ll_node_t* next = temp->next->next; 
+
+ERROR: DOS line endings
+#123: FILE: queue.c:123:
++    struct ll_node_t* rez = temp->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#123: FILE: queue.c:123:
++    struct ll_node_t* rez = temp->next;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#123: FILE: queue.c:123:
++    struct ll_node_t* rez = temp->next;
+
+ERROR: DOS line endings
+#124: FILE: queue.c:124:
++^M$
+
+ERROR: DOS line endings
+#125: FILE: queue.c:125:
++    temp->next = next;^M$
+
+WARNING: please, no spaces at the start of a line
+#125: FILE: queue.c:125:
++    temp->next = next;^M$
+
+ERROR: DOS line endings
+#126: FILE: queue.c:126:
++    --list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#126: FILE: queue.c:126:
++    --list->size;^M$
+
+ERROR: DOS line endings
+#127: FILE: queue.c:127:
++    return rez;^M$
+
+WARNING: please, no spaces at the start of a line
+#127: FILE: queue.c:127:
++    return rez;^M$
+
+ERROR: DOS line endings
+#128: FILE: queue.c:128:
++}^M$
+
+ERROR: DOS line endings
+#129: FILE: queue.c:129:
++^M$
+
+ERROR: DOS line endings
+#130: FILE: queue.c:130:
++unsigned int ll_get_size(linked_list_t* list)^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#130: FILE: queue.c:130:
++unsigned int ll_get_size(linked_list_t* list)
+
+ERROR: DOS line endings
+#131: FILE: queue.c:131:
++{^M$
+
+ERROR: DOS line endings
+#132: FILE: queue.c:132:
++    if (list == NULL) {^M$
+
+WARNING: please, no spaces at the start of a line
+#132: FILE: queue.c:132:
++    if (list == NULL) {^M$
+
+WARNING: braces {} are not necessary for single statement blocks
+#132: FILE: queue.c:132:
++    if (list == NULL) {
++        return -1;
++    }
+
+ERROR: DOS line endings
+#133: FILE: queue.c:133:
++        return -1;^M$
+
+ERROR: code indent should use tabs where possible
+#133: FILE: queue.c:133:
++        return -1;^M$
+
+WARNING: please, no spaces at the start of a line
+#133: FILE: queue.c:133:
++        return -1;^M$
+
+ERROR: DOS line endings
+#134: FILE: queue.c:134:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#134: FILE: queue.c:134:
++    }^M$
+
+ERROR: DOS line endings
+#135: FILE: queue.c:135:
++^M$
+
+ERROR: trailing whitespace
+#136: FILE: queue.c:136:
++    // numarul de noduri din lista^M$
+
+ERROR: DOS line endings
+#137: FILE: queue.c:137:
++    return list->size;^M$
+
+WARNING: please, no spaces at the start of a line
+#137: FILE: queue.c:137:
++    return list->size;^M$
+
+ERROR: DOS line endings
+#138: FILE: queue.c:138:
++}^M$
+
+ERROR: DOS line endings
+#139: FILE: queue.c:139:
++^M$
+
+ERROR: DOS line endings
+#140: FILE: queue.c:140:
++void ll_free(linked_list_t** pp_list)^M$
+
+ERROR: "foo** bar" should be "foo **bar"
+#140: FILE: queue.c:140:
++void ll_free(linked_list_t** pp_list)
+
+ERROR: DOS line endings
+#141: FILE: queue.c:141:
++{^M$
+
+ERROR: DOS line endings
+#142: FILE: queue.c:142:
++    struct ll_node_t* temp;^M$
+
+WARNING: please, no spaces at the start of a line
+#142: FILE: queue.c:142:
++    struct ll_node_t* temp;^M$
+
+ERROR: "foo* bar" should be "foo *bar"
+#142: FILE: queue.c:142:
++    struct ll_node_t* temp;
+
+ERROR: DOS line endings
+#143: FILE: queue.c:143:
++^M$
+
+ERROR: trailing whitespace
+#144: FILE: queue.c:144:
++    // se elibereaza din memorie toate nodurile^M$
+
+ERROR: DOS line endings
+#145: FILE: queue.c:145:
++    while ((*pp_list)->head != NULL) {^M$
+
+WARNING: please, no spaces at the start of a line
+#145: FILE: queue.c:145:
++    while ((*pp_list)->head != NULL) {^M$
+
+ERROR: DOS line endings
+#146: FILE: queue.c:146:
++        temp = (*pp_list)->head;^M$
+
+ERROR: code indent should use tabs where possible
+#146: FILE: queue.c:146:
++        temp = (*pp_list)->head;^M$
+
+WARNING: please, no spaces at the start of a line
+#146: FILE: queue.c:146:
++        temp = (*pp_list)->head;^M$
+
+ERROR: DOS line endings
+#147: FILE: queue.c:147:
++        (*pp_list)->head = (*pp_list)->head->next;^M$
+
+ERROR: code indent should use tabs where possible
+#147: FILE: queue.c:147:
++        (*pp_list)->head = (*pp_list)->head->next;^M$
+
+WARNING: please, no spaces at the start of a line
+#147: FILE: queue.c:147:
++        (*pp_list)->head = (*pp_list)->head->next;^M$
+
+ERROR: DOS line endings
+#148: FILE: queue.c:148:
++^M$
+
+ERROR: DOS line endings
+#149: FILE: queue.c:149:
++        free(temp->data);^M$
+
+ERROR: code indent should use tabs where possible
+#149: FILE: queue.c:149:
++        free(temp->data);^M$
+
+WARNING: please, no spaces at the start of a line
+#149: FILE: queue.c:149:
++        free(temp->data);^M$
+
+ERROR: DOS line endings
+#150: FILE: queue.c:150:
++        free(temp);^M$
+
+ERROR: code indent should use tabs where possible
+#150: FILE: queue.c:150:
++        free(temp);^M$
+
+WARNING: please, no spaces at the start of a line
+#150: FILE: queue.c:150:
++        free(temp);^M$
+
+ERROR: DOS line endings
+#151: FILE: queue.c:151:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#151: FILE: queue.c:151:
++    }^M$
+
+ERROR: DOS line endings
+#152: FILE: queue.c:152:
++^M$
+
+ERROR: trailing whitespace
+#153: FILE: queue.c:153:
++    // se elibereaza lista^M$
+
+ERROR: DOS line endings
+#154: FILE: queue.c:154:
++    free(*pp_list);^M$
+
+WARNING: please, no spaces at the start of a line
+#154: FILE: queue.c:154:
++    free(*pp_list);^M$
+
+ERROR: DOS line endings
+#155: FILE: queue.c:155:
++}^M$
+
+ERROR: DOS line endings
+#156: FILE: queue.c:156:
++^M$
+
+ERROR: DOS line endings
+#157: FILE: queue.c:157:
++queue_t *q_create(unsigned int data_size)^M$
+
+ERROR: DOS line endings
+#158: FILE: queue.c:158:
++{^M$
+
+ERROR: DOS line endings
+#159: FILE: queue.c:159:
++    struct queue_t *q = malloc(sizeof(struct queue_t));^M$
+
+WARNING: please, no spaces at the start of a line
+#159: FILE: queue.c:159:
++    struct queue_t *q = malloc(sizeof(struct queue_t));^M$
+
+ERROR: DOS line endings
+#160: FILE: queue.c:160:
++    q->list = ll_create(data_size);^M$
+
+WARNING: Missing a blank line after declarations
+#160: FILE: queue.c:160:
++    struct queue_t *q = malloc(sizeof(struct queue_t));
++    q->list = ll_create(data_size);
+
+WARNING: please, no spaces at the start of a line
+#160: FILE: queue.c:160:
++    q->list = ll_create(data_size);^M$
+
+ERROR: DOS line endings
+#161: FILE: queue.c:161:
++^M$
+
+ERROR: DOS line endings
+#162: FILE: queue.c:162:
++    return q;^M$
+
+WARNING: please, no spaces at the start of a line
+#162: FILE: queue.c:162:
++    return q;^M$
+
+ERROR: DOS line endings
+#163: FILE: queue.c:163:
++}^M$
+
+ERROR: DOS line endings
+#164: FILE: queue.c:164:
++^M$
+
+ERROR: DOS line endings
+#165: FILE: queue.c:165:
++unsigned int q_get_size(queue_t *q)^M$
+
+ERROR: DOS line endings
+#166: FILE: queue.c:166:
++{^M$
+
+ERROR: DOS line endings
+#167: FILE: queue.c:167:
++    if (q->list == NULL)^M$
+
+WARNING: please, no spaces at the start of a line
+#167: FILE: queue.c:167:
++    if (q->list == NULL)^M$
+
+ERROR: DOS line endings
+#168: FILE: queue.c:168:
++        return -1;^M$
+
+ERROR: code indent should use tabs where possible
+#168: FILE: queue.c:168:
++        return -1;^M$
+
+WARNING: please, no spaces at the start of a line
+#168: FILE: queue.c:168:
++        return -1;^M$
+
+ERROR: DOS line endings
+#169: FILE: queue.c:169:
++^M$
+
+ERROR: trailing whitespace
+#170: FILE: queue.c:170:
++    // numarul de noduri din coada^M$
+
+ERROR: DOS line endings
+#171: FILE: queue.c:171:
++    return ll_get_size(q->list);^M$
+
+WARNING: please, no spaces at the start of a line
+#171: FILE: queue.c:171:
++    return ll_get_size(q->list);^M$
+
+ERROR: DOS line endings
+#172: FILE: queue.c:172:
++}^M$
+
+ERROR: DOS line endings
+#173: FILE: queue.c:173:
++^M$
+
+ERROR: DOS line endings
+#174: FILE: queue.c:174:
++unsigned int q_is_empty(queue_t *q)^M$
+
+ERROR: DOS line endings
+#175: FILE: queue.c:175:
++{^M$
+
+ERROR: DOS line endings
+#176: FILE: queue.c:176:
++    if (q_get_size(q) == 0) {^M$
+
+WARNING: please, no spaces at the start of a line
+#176: FILE: queue.c:176:
++    if (q_get_size(q) == 0) {^M$
+
+WARNING: braces {} are not necessary for single statement blocks
+#176: FILE: queue.c:176:
++    if (q_get_size(q) == 0) {
++        return 1;
++    }
+
+ERROR: DOS line endings
+#177: FILE: queue.c:177:
++        return 1;^M$
+
+ERROR: code indent should use tabs where possible
+#177: FILE: queue.c:177:
++        return 1;^M$
+
+WARNING: please, no spaces at the start of a line
+#177: FILE: queue.c:177:
++        return 1;^M$
+
+ERROR: DOS line endings
+#178: FILE: queue.c:178:
++    }^M$
+
+WARNING: please, no spaces at the start of a line
+#178: FILE: queue.c:178:
++    }^M$
+
+ERROR: DOS line endings
+#179: FILE: queue.c:179:
++^M$
+
+ERROR: DOS line endings
+#180: FILE: queue.c:180:
++^Ireturn 0;^M$
+
+ERROR: DOS line endings
+#181: FILE: queue.c:181:
++}^M$
+
+ERROR: DOS line endings
+#182: FILE: queue.c:182:
++^M$
+
+ERROR: DOS line endings
+#183: FILE: queue.c:183:
++void *q_peek(queue_t *q)^M$
+
+ERROR: DOS line endings
+#184: FILE: queue.c:184:
++{^M$
+
+ERROR: DOS line endings
+#185: FILE: queue.c:185:
++^Ireturn q->list->head;^M$
+
+ERROR: DOS line endings
+#186: FILE: queue.c:186:
++}^M$
+
+ERROR: DOS line endings
+#187: FILE: queue.c:187:
++^M$
+
+ERROR: DOS line endings
+#188: FILE: queue.c:188:
++void q_pop(queue_t *q)^M$
+
+ERROR: DOS line endings
+#189: FILE: queue.c:189:
++{^M$
+
+ERROR: DOS line endings
+#190: FILE: queue.c:190:
++    struct ll_node_t *del = ll_remove_nth_node(q->list, 0);^M$
+
+WARNING: please, no spaces at the start of a line
+#190: FILE: queue.c:190:
++    struct ll_node_t *del = ll_remove_nth_node(q->list, 0);^M$
+
+ERROR: DOS line endings
+#191: FILE: queue.c:191:
++    free(del);^M$
+
+WARNING: Missing a blank line after declarations
+#191: FILE: queue.c:191:
++    struct ll_node_t *del = ll_remove_nth_node(q->list, 0);
++    free(del);
+
+WARNING: please, no spaces at the start of a line
+#191: FILE: queue.c:191:
++    free(del);^M$
+
+ERROR: DOS line endings
+#192: FILE: queue.c:192:
++}^M$
+
+ERROR: DOS line endings
+#193: FILE: queue.c:193:
++^M$
+
+ERROR: DOS line endings
+#194: FILE: queue.c:194:
++void q_push(queue_t *q, void *new_data, int priority)^M$
+
+ERROR: DOS line endings
+#195: FILE: queue.c:195:
++{^M$
+
+ERROR: DOS line endings
+#196: FILE: queue.c:196:
++    ll_add_node(q->list, q_get_size(q), new_data, priority);^M$
+
+WARNING: please, no spaces at the start of a line
+#196: FILE: queue.c:196:
++    ll_add_node(q->list, q_get_size(q), new_data, priority);^M$
+
+ERROR: DOS line endings
+#197: FILE: queue.c:197:
++}^M$
+
+ERROR: DOS line endings
+#198: FILE: queue.c:198:
++^M$
+
+ERROR: DOS line endings
+#199: FILE: queue.c:199:
++void q_push_priority(queue_t *q, void *new_data, int priority)^M$
+
+ERROR: DOS line endings
+#200: FILE: queue.c:200:
++{^M$
+
+ERROR: DOS line endings
+#201: FILE: queue.c:201:
++    ll_add_node_priority(q->list, new_data, priority);^M$
+
+WARNING: please, no spaces at the start of a line
+#201: FILE: queue.c:201:
++    ll_add_node_priority(q->list, new_data, priority);^M$
+
+ERROR: DOS line endings
+#202: FILE: queue.c:202:
++}^M$
+
+ERROR: DOS line endings
+#203: FILE: queue.c:203:
++^M$
+
+ERROR: DOS line endings
+#204: FILE: queue.c:204:
++void q_free(queue_t *q)^M$
+
+ERROR: DOS line endings
+#205: FILE: queue.c:205:
++{^M$
+
+ERROR: DOS line endings
+#206: FILE: queue.c:206:
++    ll_free(&(q->list));^M$
+
+WARNING: please, no spaces at the start of a line
+#206: FILE: queue.c:206:
++    ll_free(&(q->list));^M$
+
+ERROR: DOS line endings
+#207: FILE: queue.c:207:
++    free(q);^M$
+
+WARNING: please, no spaces at the start of a line
+#207: FILE: queue.c:207:
++    free(q);^M$
+
+total: 274 errors, 112 warnings, 208 lines checked
+
+NOTE: Whitespace errors detected.
+      You may wish to use scripts/cleanpatch or scripts/cleanfile
+
+Wrote EXPERIMENTAL --fix correction(s) to 'queue.c'
+
+Do _NOT_ trust the results written to this file.
+Do _NOT_ submit these changes without inspecting them for correctness.
+
+This EXPERIMENTAL file is simply a convenience to help rewrite patches.
+No warranties, expressed or implied...
+
+queue.c has style problems, please review.
+
+NOTE: If any of the errors are false positives, please report
+      them to the maintainer, see CHECKPATCH in MAINTAINERS.
