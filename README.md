@@ -1,8 +1,6 @@
 Nume: Popa Bianca
-Grupa: 321CA
 
-## Titlu + numar tema
-Tema 2 - Planificator de threaduri
+Planificator de threaduri
 
 ### Descriere:
     Planificatorul este o structura ce contine campurile: threads (coada ce
