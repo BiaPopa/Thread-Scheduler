@@ -1,9 +1,10 @@
 Nume: Popa Bianca
 
-Planificator de threaduri
+## Planificator de threaduri
 
-### Descriere:
-    Planificatorul este o structura ce contine campurile: threads (coada ce
+### Descriere
+
+Planificatorul este o structura ce contine campurile: threads (coada ce
 retine toate threadurile pornite), queue (coada de prioritati ce retine toate
 threadurile in starea "Ready"), current_running (threadul aflat in starea
 "Running"), running (semafor anonim), max_quantum (cuanta de timp dupa care
